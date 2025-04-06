@@ -1,0 +1,40 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## Dependency Analysis
+- Analyze project dependencies before suggesting new libraries
+- Identify how the project manages dependencies (npm, yarn, pip, etc.)
+- Prefer using existing dependencies over introducing new ones
+- When new dependencies are necessary, consider their impact on the project
+
+## Testing Considerations
+- Examine existing test patterns and frameworks
+- Ensure new code can be tested using the project's testing approach
+- Suggest test cases based on existing test coverage patterns
+- Consider how changes might affect existing tests
+
+## Performance Impact Assessment
+- Evaluate potential performance implications of proposed changes
+- Consider memory usage, execution time, and resource utilization
+- Identify potential bottlenecks or optimization opportunities
+- Align with existing performance patterns and requirements
+
+## Version Control Integration
+- Review recent commit history to understand active development areas
+- Be aware of changes across branches if visible
+- Consider how to structure commits for the proposed changes
+- Suggest meaningful commit messages based on project conventions
+
+## Configuration and Environment Awareness
+- Analyze environment configurations (.env files, config files, etc.)
+- Consider different runtime environments (development, production, etc.)
+- Be aware of feature flags or conditional code patterns
+- Respect established configuration management approaches
+
+## Documentation Update Requirements
+- Update relevant documentation alongside code changes
+- Follow existing documentation formats and standards
+- Consider README updates, JSDoc/docstring requirements, etc.
+- Ensure API documentation stays in sync with implementation

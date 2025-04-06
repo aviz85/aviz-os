@@ -1,0 +1,35 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Cursor Rules: Project Research Protocol
+
+## Project Analysis Requirements
+- Before implementing any new code or changes, thoroughly research the existing project structure
+- Scan and analyze all relevant files that might be impacted by the proposed changes
+- Identify existing implementations of similar functionality to avoid duplication
+- Understand the project's architectural patterns and coding conventions
+
+## Implementation Process
+1. When asked to create or modify code, first search for related files and components
+2. Summarize the existing structure relevant to the requested change
+3. Identify potential conflicts with existing implementations
+4. Propose changes that integrate seamlessly with the existing codebase
+5. Highlight any refactoring needed to maintain consistency
+
+## Documentation Requirements  
+- Reference discovered existing implementations in your responses
+- Explain how the new changes fit into the current architecture
+- Document any architectural decisions made to maintain consistency
+
+## Style and Pattern Matching
+- Match existing code style and naming conventions
+- Maintain consistency with established patterns
+- Use the same libraries and approaches as existing code when appropriate
+- Follow project-specific idioms and best practices
+
+## Conflict Resolution
+- If the requested change conflicts with existing code, explain the conflict
+- Propose alternatives that maintain consistency
+- Consider refactoring options that improve the overall architecture
